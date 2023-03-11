@@ -1,11 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
-int a, b, c;
-a = 1;
-b = 2;
-c = 3;
-Console.WriteLine(a);
-Console.WriteLine(b);
-Console.WriteLine(c);
+//int a, b, c;
+//a = 1;
+//b = 2;
+//c = 3;
+//Console.WriteLine(a);
+//Console.WriteLine(b);
+//Console.WriteLine(c);
 
 //var bb = true;
 //var fb = false;
@@ -32,3 +32,15 @@ switch (test)
         Console.WriteLine(test);
         break;
 }
+
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+var a = 1;
+   var b = 2;
+    var c = 3.5;
+    var ch = 's';
+//int i = ch;
+//Console.WriteLine(i);
+//Console.WriteLine((int)ch);
+
+a = b < c ? (int)c : b;
